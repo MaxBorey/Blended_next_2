@@ -1,8 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-
-import { getUserInfo } from '@/lib/service/opencagedataApi';
+import { getUserInfo } from '@/lib/opencagedataApi';
 import { useCurrencyStore } from '@/lib/stores/currencyStore';
 
 export default function GeolocationChecker() {
